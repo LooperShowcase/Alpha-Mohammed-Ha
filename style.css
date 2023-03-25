@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(126, 111, 111);
+  }
+  h1 {
+    background-color: rgb(88, 88, 96);
+  }
+  #quemirabobo {
+background-color: rgb(68, 68, 64);
+  }
+  #si{
+    background-color: rgb(118, 137, 137);
+    border-radius: 25px;
+  }
+  img{
+    border-radius: 25px;
+    border: 2px solid rgb(175, 103, 103);
+  }
+  img {
+    box-shadow: 10px 10px 40px 0px rgb(71, 168, 168);  }
+  button{
+    /* Keyword value */
+cursor: auto;
+cursor: pointer;
+/* … */
+cursor: zoom-out;
+
+/* URL with mandatory keyword fallback */
+cursor: url(hand.cur), pointer;
+
+/* URL and coordinates, with mandatory keyword fallback */
+cursor: url(cursor_1.png) 4 12, auto;
+cursor: url(cursor_2.png) 2 2, pointer;
+
+/* URLs and fallback URLs (some with coordinates), with mandatory keyword fallback */
+cursor: url(cursor_1.svg) 4 5, url(cursor_2.svg), /* … ,*/ url(cursor_n.cur) 5 5,
+  progress;
+
+/* Global values */
+cursor: inherit;
+cursor: initial;
+cursor: revert;
+cursor: revert-layer;
+cursor: unset;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+p{
+  background-color: aqua;
+  border-radius: 25px;
+}
+body{
+  background-image: url(https://tecnocell.co.il/wp-content/uploads/2022/11/%D7%A1%D7%9E%D7%A1%D7%95%D7%A0%D7%92-SAMSUNG-S22-ULTRA-256GB-12GB-RAM-%D7%A9%D7%97%D7%95%D7%A8.jpg);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(83, 77, 77);
+  color: white;
+  text-align: center;
+}
+h1{
+  background-color: aqua;
+  border-radius: 25px;
+}
